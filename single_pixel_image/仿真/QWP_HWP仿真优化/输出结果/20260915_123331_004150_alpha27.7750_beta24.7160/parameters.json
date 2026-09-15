@@ -1,0 +1,29 @@
+{
+  "alpha_deg": 27.775049006,
+  "beta_deg": 24.7159886676,
+  "f_pem_khz": 50.0,
+  "delta0_rad": 2.4048255577,
+  "c_mv": 100.0,
+  "model": "P1(-45) -> QWP(alpha) -> HWP(beta) -> PEM(0) -> P2(+45)",
+  "normalized_stokes_after_hwp": [
+    1.0,
+    -0.5999999999985112,
+    -0.5656854249501476,
+    -0.5656854249499074
+  ],
+  "f_pem_hz": 50000.0,
+  "C_GI0_over_2_mv": 100.0,
+  "GI0_mv": 200.0,
+  "cycles": 200,
+  "sample_rate_hz": 51200000.0,
+  "samples": 204800,
+  "frequency_resolution_hz": 250.0,
+  "dc_fft_mv": 100.00000000012416,
+  "min_mv": 19.999999999888352,
+  "max_mv": 180.00000000011164,
+  "vpp_mv": 160.00000000022328,
+  "vpp_sampled_mv": 159.9996096392199,
+  "fft_bessel_max_error_mv": 2.842170943040401e-14,
+  "assumptions": "Ideal waveplates and P1; fixed GI0; flat detector response; no noise, offset or chopper.",
+  "amplitude_convention": "DC = mean; nonzero FFT = peak; AC RMS = peak/sqrt(2); signed coefficients preserved in CSV."
+}
